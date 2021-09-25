@@ -1,0 +1,21 @@
+.App {
+}
+
+.card-container {
+  border: 1px solid;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.card-content {
+  border: 1px solid;
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.card-content h1 {
+  text-align: center;
+}
