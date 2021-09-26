@@ -1,21 +1,70 @@
 .App {
+  font: 15px/1.5 Arial, Helvetica, sans-serif;
+
+  padding: 0;
 }
 
 .card-container {
-  border: 1px solid;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 20px;
+  gap: 40px;
+  margin: 20px 200px;
+}
+.teti {
+  background-color: red;
+}
+.test {
+  background-color: black;
 }
 
 .card-content {
-  border: 1px solid;
-  width: 250px;
+  border-radius: 25px;
+  border: 2px solid #dcdcdc;
+  width: 300px;
+  height: 400px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  box-shadow: 1px 2px 1px #888888;
 }
 .card-content h1 {
   text-align: center;
+}
+.card-content p {
+  margin-bottom: 10px;
+}
+.card-container button {
+  background-color: rgb(10, 150, 255);
+  border: none;
+  border-radius: 10px;
+  color: white;
+  padding: 12px 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+}
+
+.card-container h2 {
+  border: none;
+  border-radius: 50px;
+  width: 70px;
+  height: 70px;
+  text-align: center;
+  background-color: rgb(220, 220, 220);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.underline {
+  text-decoration: underline;
+  color: rgb(22, 139, 235);
+}
+
+.user-container {
+border: 1px solid;
+width: 300px;
+margin: 100px auto;
+padding: 30px;
 }

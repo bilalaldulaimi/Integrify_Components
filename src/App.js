@@ -7,14 +7,15 @@ export default function App() {
     <Router>
       <div className="App">
         <Switch>
-          <Route path="/">
+          <Route exact path="/">
             <Cards />
           </Route>
-          <Route path="/user/:id">
+          <Route exact path="/users/:id">
             <User />
           </Route>
         </Switch>
       </div>
     </Router>
+    
   );
 }
